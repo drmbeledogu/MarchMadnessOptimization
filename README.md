@@ -7,6 +7,6 @@ The dependencies required for this project are listed below. You can run `pip in
 * [NumPy](https://numpy.org/install/)
 * [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
 * [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
-* [Pyscipopt](https://github.com/scipopt/PySCIPOpt)
 * [Leap-ec](https://pypi.org/project/leap-ec/)
 * [Dask](https://docs.dask.org/en/stable/install.html)
+* [Pyscipopt](https://github.com/scipopt/PySCIPOpt)
