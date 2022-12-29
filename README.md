@@ -9,4 +9,4 @@ The dependencies required for this project are listed below. You can run `pip in
 * [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 * [Pyscipopt](https://github.com/scipopt/PySCIPOpt)
 * [Leap-ec](https://pypi.org/project/leap-ec/)
-* [Dask]([https://matplotlib.org/stable/users/installing/index.html](https://docs.dask.org/en/stable/install.html))
+* [Dask](https://docs.dask.org/en/stable/install.html)
