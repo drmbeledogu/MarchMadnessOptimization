@@ -2,6 +2,8 @@
 
 More details to come on the methods
 
+### Description
+
 ### Dependencies
 The dependencies required for this project are listed below. You can run `pip install -r requirements.txt` from the command line or install the dependencies to your liking using the details provided at the links below.
 * [NumPy](https://numpy.org/install/)
@@ -22,3 +24,7 @@ The folder, `Data\538 Chalk Brackets\`, contains the raw forecast data obtained 
 * `team_rating (float)`: Rating as calculated by FiveThirtyEight before the tournament started
 * `team_region (string)`: Region that the team was competing in
 * `seed (int)`: Seed of the team competing
+
+### Supporting python files
+
+### Notebooks
