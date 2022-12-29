@@ -9,7 +9,7 @@ The dependencies required for this project are listed below. You can run `pip in
 * [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
 * [Leap-ec](https://pypi.org/project/leap-ec/)
 * [Dask](https://docs.dask.org/en/stable/install.html)
-* [Pyscipopt](https://github.com/scipopt/PySCIPOpt) - Pyscipopt is a python API for the SCIP optimization suite, which is a non-comemrcial solver for mixed integer programming problems. The SCIP optimization suite must first be downloaded [here](https://www.scipopt.org/index.php#download). There can sometimes be issues with getting the Pyscipopt API to access the scop optimimiaztion suite problems. If you run into those issues, try consulting the feedback [here](https://github.com/scipopt/PySCIPOpt/issues/110)  
+* [Pyscipopt](https://github.com/scipopt/PySCIPOpt) - Pyscipopt is a python API for the SCIP optimization suite, which is a non-comemrcial solver for mixed integer programming problems. The SCIP optimization suite must first be downloaded [here](https://www.scipopt.org/index.php#download). There can sometimes be issues with getting the Pyscipopt API to access the SCIP optimimiaztion suite. If you run into those issues, try consulting the feedback [here](https://github.com/scipopt/PySCIPOpt/issues/110)  
 
 ### Data
 The folder, `Data\538 Chalk Brackets\`, contains the raw forecast data obtained from FiveThirtyEight. The folder, `Data\final_bracket_data\` contains the data that was used in the calculation of this project, part of which contains the FiveThirtyEight forecast data and part of which contains other data. There are separate csv's containing data for each year with the simple naming convention `20XX.csv`. Each of the files in the that folder contain the following data:
