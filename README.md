@@ -5,9 +5,7 @@ More details to come on the methods
 ### Description
 The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It is an event 
 
-$$\min_{Z, d} F(Z, d)$$
-$$ 0 \geq d \leq 1$$
-$$ Z \in \argmax_{X} f(X, d)$$
+$$Z \in \argmax_{X} f(X, d)$$
 
 ### Dependencies
 The dependencies required for this project are listed below. You can run `pip install -r requirements.txt` from the command line or install the dependencies to your liking using the details provided at the links below.
