@@ -7,7 +7,7 @@ The men's NCAA basketball tournament is a single eliminitation tournament starti
 
 $$\max_{} F(d, X_{1}, X_{2}, ..., X_{n})$$
 
-$$X_{i} \in \arg \max_{X_{i} \in \{0, 1\}^{T x R}} f(d, X_{i})$$
+$$X_{i}^{*} \in \arg \max_{X_{i} \in \{0, 1\}^{T x R}} f(d, X_{i})$$
 
 ### Dependencies
 The dependencies required for this project are listed below. You can run `pip install -r requirements.txt` from the command line or install the dependencies to your liking using the details provided at the links below.
