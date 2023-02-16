@@ -5,7 +5,7 @@ More details to come on the methods
 ### Description
 The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It is an event 
 
-$$X \in \arg \max_{d} S(d)$$
+$$X \in S(d)$$
 
 ### Dependencies
 The dependencies required for this project are listed below. You can run `pip install -r requirements.txt` from the command line or install the dependencies to your liking using the details provided at the links below.
