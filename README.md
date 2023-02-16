@@ -5,7 +5,7 @@ More details to come on the methods
 ### Description
 The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It is an event 
 
-$$\max_{} F(d, X_{1}, X_{2}, ..., X_{n})$$
+$$\max_{d \in [0, 1]^{R}} F(d, X_{1}^{*}, X_{2}^{*}, ..., X_{n}^{*})$$
 
 $$X_{i}^{*} \in \arg \max_{X_{i} \in \{0, 1\}^{T x R}} f(d, X_{i})$$
 
