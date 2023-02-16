@@ -5,9 +5,9 @@ More details to come on the methods
 ### Description
 The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It is an event 
 
-$$\max_{X, d}$$
+$$\max_{} F(d, X_{1}, X_{2}, ..., X_{n})$$
 
-$$X \in S(d)$$
+$$X \in \arg \max_{X \in \{0, 1\}^{T x R}} f(d, X)$$
 
 ### Dependencies
 The dependencies required for this project are listed below. You can run `pip install -r requirements.txt` from the command line or install the dependencies to your liking using the details provided at the links below.
