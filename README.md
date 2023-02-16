@@ -6,6 +6,7 @@ More details to come on the methods
 The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It is an event 
 
 $$\max_{X, d}$$
+
 $$X \in S(d)$$
 
 ### Dependencies
