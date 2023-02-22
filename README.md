@@ -3,11 +3,17 @@
 More details to come on the methods
 
 ### Description
-The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It is an event 
+The men's NCAA basketball tournament is a single eliminitation tournament starting with 68 teams. It's tradition to attempt to predict what the final bracket will look like before the tournament starts. Due to the sheer size of the tournament and the combinatorial nature of the bracket, it's extremely difficult to predict. In fact, there has never been a recorded perfect prediction. The best strategy to generate the most correct bracket would seem to be to select all the favorites or "chalk" in every round. Chalk could be determined by seed or another prediction method for the outcome of a game, like the projections that fivethirtyeight.com releases. Although this may seem like the best strategy, and may even provide the best performance on average, it will rarely win a bracket challenge. Although it is the most likely outcome, it's still a rare one and someone else will guess at a better bracket. Is there a way to select a bracket that is not chalk but will outperform chalk more often than not?
+
+We can formulate this problem mathematicallly. Is there a distance from chalk that when applied to a bracket every year, the resulting bracket out performs chalk most years? This can be formulated as a bilevel optimization problem where the goal in any given year is to maximize the expected points outcome given that you are some distance from chalk and the overall goal is to maximize outperformance across all years. The year problems are the follower problem and the leader problem selects the proper distance. The problem is formulated as:
 
 $$\max_{d \in \[0, 1\]^{R}} F(d, X_{1}^{\*}, X_{2}^{\*}, ..., X_{n}^{\*})$$
 
 $$X_{i}^{\*} \in \underset{X_{i} \in \\{0, 1\\}^{T x R}}{\arg \max} f(d, X_{i})$$
+
+Where $X_i$ is the braket for any given year, $d$ is the distance from chalk, $f(d, X_{i})$ is the expected score for year $i$ paramaterized by $d$, and $F(d, X_{1}^{\*}, X_{2}^{\*}, ..., X_{n}^{\*})$ is the outperformance score across all years given the distance and the optimal bracket for each year.
+
+This notebook aims to find this distance and see if there really is a strategy better than selecting chalk every year.
 
 ### Dependencies
 The dependencies required for this project are listed below. You can run `pip install -r requirements.txt` from the command line or install the dependencies to your liking using the details provided at the links below.
