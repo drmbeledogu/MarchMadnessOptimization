@@ -37,5 +37,8 @@ The folder, `Data\538 Chalk Brackets\`, contains the raw forecast data obtained 
 * `seed (int)`: Seed of the team competing
 
 ### Supporting python files
+* `opt_functions.py`: This file contains the functions required to carry out the optimization. The helper functions include the lower-level optimization function, a function to transform the pyscipopt output to a useable dataframe, a function to calculate the score of a bracket, and a sigmoid function.
 
 ### Notebooks
+* `outperform_chalk.ipynb`: This notebook carries out the bilevel programming problem and displays the results.
+* `fitness_experiments.ipynb`: This notebook explores the erosion of synchronous fitness evaluation for variable time fitness functions 
